@@ -1,0 +1,41 @@
+.userchat {
+    background:rgba(white,.8);
+    margin:.6rem auto;
+    border-radius:.2rem;
+    padding:1.2rem .6rem;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:fit-content;
+    width:100%;
+    a {
+        text-decoration:none;
+    }
+    &__chat {
+        margin:0 .7rem;
+        width:80%;
+        padding:.2rem;
+    }
+    &__iconContainer {
+        background:$primary-color;
+        color:#fff;
+        display:grid;
+        place-items:center;
+        padding:.7rem;
+        height:100%;
+        flex-grow:.05;
+        border-radius:50%;
+    }
+    &__name{
+        font-size:.9rem;
+        margin-bottom:.2rem;
+        color:black;
+        &::first-letter{
+            text-transform: uppercase;
+        }
+    }
+    &__chatexert {
+        font-size:.7rem;
+        color:rgba(black,.8);
+    }
+}

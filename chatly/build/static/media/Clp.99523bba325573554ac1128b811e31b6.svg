@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="200" height="200" version="1.1" viewBox="0 0 52.917 52.917" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient2641">
+   <stop stop-color="#00f" offset="0"/>
+   <stop stop-color="#000080" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient2643" x1="32.287" x2="46.31" y1="28.21" y2="48.319" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2641"/>
+ </defs>
+ <g transform="translate(71.117 92.065)">
+  <g transform="translate(10.103 .37418)">
+   <g transform="matrix(.75596 0 0 .75596 -84.126 -97)" fill="url(#linearGradient2643)" stroke-width="1.3228">
+    <g fill="url(#linearGradient2643)" stroke-width="0">
+     <path d="m42.044 19.863c-10.493 7e-5 -19 8.5066-19 19 0.0044 2.1355 0.36887 4.255 1.078 6.2694-2.0271 7.8842-5.304 5.4683-4.5036 6.597 1.5258 2.1518 7.2106 2.721 10.503 1.9229 3.377 2.7236 7.5844 4.2094 11.923 4.2106 10.493-6.8e-5 19-8.5066 19-19-7.1e-5 -10.493-8.5066-19-19-19zm1.2501 9.1767c2.527 0 4.7562 0.63197 6.6869 1.8955 1.8314 1.2067 2.7471 2.7045 2.7471 4.4933 0 1.2351-0.42615 2.2358-1.278 3.0024-0.79502 0.72404-1.7532 1.0862-2.8748 1.0862-1.1783 0-2.0656-0.42563-2.6619-1.2774-0.18456-0.26974-0.45433-0.95867-0.80925-2.066-0.38332-1.1925-1.1147-1.7885-2.1937-1.7885-0.78082 0-1.4408 0.34071-1.9802 1.0222-0.52528 0.68145-0.78807 1.5187-0.78807 2.5125 0 1.7036 0.61049 3.2159 1.8314 4.5362 0.99378 1.0648 2.2432 1.5973 3.7481 1.5973 0.70984 0 1.3058-0.05696 1.7885-0.17053 0.48269-0.12777 1.1147-0.37606 1.8955-0.74518 0.19876-0.09938 0.41856-0.14934 0.65991-0.14934 0.48269 0 0.90884 0.22731 1.278 0.68161 0.36912 0.4543 0.55346 0.98634 0.55346 1.5968 0 0.63886-0.26226 1.3133-0.78755 2.0231-0.52528 0.69564-1.2142 1.3061-2.066 1.8314-1.8456 1.1357-4.0247 1.7038-6.5376 1.7038-2.9246 0-5.4159-0.85178-7.4745-2.5554-2.6406-2.1579-3.961-4.9051-3.961-8.2414 0-3.2085 1.228-5.8632 3.684-7.9644 2.3425-2.016 5.1891-3.0241 8.5395-3.0241z" style="paint-order:stroke markers fill"/>
+     <g>
+      <circle cx="14.155" cy="55.43" r="2.1828" opacity=".078313" style="paint-order:stroke markers fill"/>
+      <circle cx="14.436" cy="39.434" r="1.1538" opacity=".078313" style="paint-order:stroke markers fill"/>
+      <circle cx="14.155" cy="55.43" r="2.1828" opacity=".078313" style="paint-order:stroke markers fill"/>
+      <circle cx="28.178" cy="61.516" r="1.2898" opacity=".078313" style="paint-order:stroke markers fill"/>
+      <circle cx="20.507" cy="69.373" r="1.2898" opacity=".078313" style="paint-order:stroke markers fill"/>
+      <circle cx="36.606" cy="67.965" r="2.1828" opacity=".078313" style="paint-order:stroke markers fill"/>
+      <circle cx="60.927" cy="15.955" r="1.3891" opacity=".078313" style="paint-order:stroke markers fill"/>
+      <circle cx="66.166" cy="23.999" r="2.1828" opacity=".14859" style="paint-order:stroke markers fill"/>
+      <circle cx="65.901" cy="44.108" r="1.3891" opacity=".056225" style="paint-order:stroke markers fill"/>
+      <circle cx="43.941" cy="11.564" r="1.3891" opacity=".056225" style="paint-order:stroke markers fill"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

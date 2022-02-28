@@ -1,0 +1,72 @@
+.userprofile {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: .8rem;
+    margin:.9rem auto;
+    > a {
+        text-decoration: none;
+        color:black;
+    }
+    &__nameContainer{
+        padding:.2rem;
+        small {
+            font-size:.7rem;
+            color:rgba(black,.8);
+        }
+    }
+    &__btnSection {
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        min-width: 150px;
+    }
+    &__profileImage {
+        width:3.2rem;
+        height:3.2rem;
+        border-radius:50%;
+        object-fit: cover;
+    }
+    &__chatBtn {
+        border:none;
+        padding:.4rem .8rem;
+        color:white;
+        border-radius:.2rem;
+        font-weight:bolder;
+        cursor:pointer;
+        background:#f9f9f9;
+        font-size:.9rem;
+        a {
+            text-decoration: none;
+            color:black;
+        }
+    }
+    &__user{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        > svg {
+            font-size:3rem;
+        }
+        h3 {
+            font-size:.8rem;
+            &::first-letter{
+                text-transform:uppercase;
+            }
+        }
+    }
+    form .btn {
+        border:none;
+        padding:.4rem .8rem;
+        color:white;
+        border-radius:.2rem;
+        font-weight:bolder;
+        cursor:pointer;
+    }
+    form .btn_primary {
+        background: $primary-color;
+    }
+    form .btn_secondary{
+        background:rgba(black,.5);
+    }
+}

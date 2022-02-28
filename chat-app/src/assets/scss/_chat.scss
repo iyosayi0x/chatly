@@ -1,0 +1,108 @@
+.chat {
+    &__header {
+        background:#f9f9f9;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        padding:1.4rem .5rem;
+        position: relative;
+        box-shadow: 1px -2px 4px black;
+    }
+    &__iconContainer {
+        padding:0 .9rem;
+    }
+    &__iconContainer > a {
+        text-decoration: none;
+        position:absolute;
+        left:1rem;
+        top:50%;
+        transform:translateY(-50%);
+    }
+    &__name {
+        font-weight: bolder;
+    }
+
+    // the box filled with chats
+    &__box {
+        height:75vh;
+        width:95%;
+        margin:.7rem auto;
+        overflow-y: auto;
+        border-radius:.3rem;
+        position: relative;
+        padding: 1rem 2rem 1rem 2rem;
+        border-bottom:1px solid #f9f9f9;
+        @include Scrollbar;
+    }
+    &__msg {
+        font-size:.85rem;
+        margin:1rem .1rem;
+        max-width:60%;
+        width:fit-content;
+        padding:1rem;
+    }
+    .msg__right {
+        background:#f9f9f9;
+        border-radius:.45rem .45rem 0 .45rem;
+        &::after{
+            right:.3rem;
+            transform:rotateZ(45deg);
+            background:inherit;
+        }
+    }
+    .msg__left{
+        background:#5364ff;
+        border-radius:.45rem .45rem .45rem 0;
+        color:white;
+        &::after{
+            left:.3rem;
+            transform:rotateZ(45deg);
+            background:inherit;
+        }
+    }
+
+    // send message field
+    &__area {
+        width:90%;
+        position:fixed;
+        bottom:2rem;
+        left:50%;
+        transform:translateX(-50%);
+        border-radius:.3rem;
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        > input {
+            width:85%;
+            height:100%;
+            padding:.8rem .8rem;
+            outline:none;
+            border:none;
+            background:#f9f9f9;
+            border-radius:.3rem;
+        }
+        > button {
+            padding:.5rem 0;
+            display:grid;
+            place-items:center;
+            width:10%;
+            border:none;
+            outline:none;
+            background: $primary-color;
+            color:white;
+            border-radius:.3rem;
+            cursor:pointer;
+        }
+    }
+}
+
+.chat_msg_time {
+    font-size:.55rem;
+    color:rgba(black,.8);
+}
+.wrapper_right {
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    flex-direction: column;
+}

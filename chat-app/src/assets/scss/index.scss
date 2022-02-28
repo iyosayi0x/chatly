@@ -1,0 +1,53 @@
+* ,*::before , *::after {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+$secondary-color:#f9f9f9;
+$primary-color:#0000ff;
+html {
+    scroll-behavior: smooth;
+}
+.small_text {
+    font-size:.7rem;
+}
+.bold_text {
+    font-weight: bolder;
+}
+.center {
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: .3rem;
+    border-radius:1rem;
+
+}
+::-webkit-scrollbar-thumb {
+    background: rgba($primary-color,.8);
+    border-radius:3rem;
+}
+
+
+@mixin Scrollbar{
+    &::-webkit-scrollbar {
+        width: .3rem;
+        border-radius:1rem;
+
+    }
+    &::-webkit-scrollbar-thumb {
+        background: rgba($primary-color,.8);
+        border-radius:3rem;
+    }
+}
+@import 'footer';
+@import 'home';
+@import 'userchat';
+@import 'chat';
+@import 'users';
+@import 'userprofile';
+@import 'form';
+@import 'profile';
+@import 'notFound';
+@import 'follow';

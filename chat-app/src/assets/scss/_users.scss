@@ -1,0 +1,18 @@
+.users {
+    h1 {
+        font-size:2rem;
+        margin:.2rem .7rem 1rem 0;
+        width:100%;
+    }
+    padding:1rem;
+    &__listSection {
+        @include Scrollbar;
+        padding:1rem;
+        width:100%;
+        height:85vh;
+        margin:0 auto;
+        overflow-y:auto;
+        border-radius:.2rem;
+        border-top:2px solid #f9f9f9;
+    }
+}

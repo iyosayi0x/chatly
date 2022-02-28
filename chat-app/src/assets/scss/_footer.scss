@@ -1,0 +1,23 @@
+.footer {
+    width:80%;
+    position: fixed;
+    bottom:2rem;
+    border-radius:4rem;
+    max-width:300px;
+    padding:.4rem .1rem;
+    box-shadow: 1px 2px 4px black;
+    background:white;
+    left:50%;
+    transform:translateX(-50%);
+    // arrange items inside flex
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    &__iconContainer {
+        font-size:2rem;
+        > a {
+            text-decoration: none;
+            color:black;
+        }
+    }
+}

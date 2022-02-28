@@ -1,0 +1,35 @@
+.notFound{
+    padding:2rem;
+    margin:3rem auto;
+    &__bigText {
+        font-size:5rem;
+        font-weight:bolder;
+        text-align: center;
+        margin:1rem auto;
+        color:$primary-color;
+    }
+    &__message {
+        font-size:.9rem;
+        text-align:center;
+        margin:1rem auto;
+        font-weight: bolder;
+    }
+    &__linkBtn{
+        width:fit-content;
+        text-align: center;
+        max-width: 500px;
+        border-radius:.2rem;
+        padding:.5rem 0;
+        margin:2rem auto;
+        border:1px solid $primary-color;
+        transition: .4s;
+        cursor:pointer;
+        color:white;
+        background:$primary-color;
+        a {
+            padding:0 1.3rem;
+            color:inherit;
+            text-decoration: none;
+        }
+    }
+}
