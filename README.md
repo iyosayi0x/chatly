@@ -40,6 +40,11 @@ This functioality is not totally complete yet , but a user can update/edit their
 
 ![profile edit](https://res.cloudinary.com/gamemojo/image/upload/v1646087798/chatly/readme/chatly_profileEdit_im3sbp.png)
 
+## Requirements to run the project
+Postgresql 
+Redis
+Python
+
 ## How to start up project
 
 After cloning the repo
